@@ -1,0 +1,17 @@
+#add-task-button {
+    text-transform: uppercase;
+}
+
+#task-list {
+    list-style: none;
+    margin: 0;
+    padding: 10px 0;
+}
+
+input[type=checkbox] + span {
+    text-decoration: none;
+}
+
+input[type=checkbox]:checked + span {
+    text-decoration: line-through;
+}
